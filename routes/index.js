@@ -9,19 +9,19 @@ router.get('/', function(req, res, next) {
 });
 // about page
 router.get('/aboutme', function(req, res, next) {
-  res.render('index', { 
+  res.render('aboutme', { 
     title: 'About '
    });
 });
-// projetcs page
+// projects page
 router.get('/projects', function(req, res, next) {
-  res.render('index', { 
+  res.render('projects', { 
     title: 'Projects '
    });
 });
 //contact
 router.get('/contactme', function(req, res, next) {
-  res.render('index', { 
+  res.render('contactme', { 
     title: 'Contact '
    });
 });
