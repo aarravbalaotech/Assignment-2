@@ -1,0 +1,82 @@
+<%- include('partials/header') %>
+<%- include('partials/main_nav') %>
+<main>
+  <!-- Hero Section -->
+  <div class="p-5 text-center bg-image" style="
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    height: 300px;
+  ">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white">
+        <h1 class="mb-3 display-3 fw-bold"><%= title %></h1>
+        <p class="display-6">Showcasing my work and creations</p>
+      </div>
+    </div>
+  </div>
+  <div class="container my-5">
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title"><i class="fas fa-globe text-primary"></i> Portfolio Website</h3>
+            <p>Personal portfolio website built with Express.js and EJS, featuring responsive design using Bootstrap and deployed on Render.</p>
+            <span class="badge bg-primary me-1">Node.js</span>
+            <span class="badge bg-primary me-1">Express</span>
+            <span class="badge bg-primary me-1">EJS</span>
+            <a href="https://github.com/aarravbalaotech/Assignment-2" target="_blank" class="btn btn-outline-primary mt-3">
+              <i class="fab fa-github"></i> View Code
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title"><i class="fas fa-shield-alt text-success"></i> Cryptography Studies</h3>
+            <p>Explored RSA encryption algorithms and digital steganography techniques for computer security coursework.</p>
+            <span class="badge bg-success me-1">Python</span>
+            <span class="badge bg-success me-1">Cryptography</span>
+            <a href="https://github.com/aarravbalaotech" target="_blank" class="btn btn-outline-success mt-3">
+              <i class="fab fa-github"></i> View Code
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title"><i class="fas fa-desktop text-danger"></i> Custom Gaming PC Build</h3>
+            <p>Designed and built a gaming PC with careful component selection and performance optimization.</p>
+            <span class="badge bg-danger me-1">Hardware</span>
+            <span class="badge bg-danger me-1">PC Build</span>
+            <span class="badge bg-danger me-1">Optimization</span>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title"><i class="fas fa-chart-line text-info"></i> BI Dashboards</h3>
+            <p>Interactive data visualization dashboards using Tableau for business intelligence and statistical insight.</p>
+            <span class="badge bg-info me-1">Tableau</span>
+            <span class="badge bg-info me-1">Statistics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- GitHub CTA -->
+    <div class="text-center mt-5">
+      <h3>Want to see more?</h3>
+      <p>Check out my GitHub for more projects.</p>
+      <a href="https://github.com/aarravbalaotech" target="_blank" class="btn btn-dark btn-lg">
+        <i class="fab fa-github"></i> Visit My GitHub
+      </a>
+    </div>
+  </div>
+</main>
+<%- include('partials/bottom_nav') %>
+<%- include('partials/footer') %>
